@@ -32,48 +32,48 @@ Til sidst har vi en administrator, brugertype 0, som vil kunne fjerne bookings (
 
 ## Alle objekter og funktionaliteter i punktform:
 
-Startside
-- Velkommen tekst
-Login (login ())
-Username
-Password
-Kunde
-Opret (createUser ())
-Username
-Password
-Firma
-Adresse
-E-mail
-Tlf. nummer
-Tjek tider
-Oprette en booking (bookAppointment ())
-Slette en booking (removeAppointment ())
-Slette sin bruger (deleteUser ())
-Admin
-Login (login ())
-Oprette konsulentbrugere (createConsultant ())
-Administrere tider
-Oprette et bookinginterval - en blok (Hvis kalender ikke bliver den endelige løsning) (createInterval ())
-Slette en booking (removeAppointment ())
-Konsulent
-Se aftaler
-Slette en booking (removeAppointment ())
-Slette sin bruger (deleteUser ())
-Valg af ydelse (søge- / sorteringsfunktion)
-Tags der viser forskellige kompetencer 
-Konsulent
-Navn
-Erfaring
-Tags
-Booking
-Dato
-Ledige tider
-Kalender
-Skal kunne modtage en booking fra appointment (addAppointment ())
-Den trækker herfra informationen: 
-date : appointment
-time : appointment
-consultant : appointment
-client : appointment
-Appointments bliver herefter vist i kalenderen for den enkelte konsulent. 
-Skal have en datofunktion (dateFunction).
+- Startside
+    - Velkommen tekst
+    - Login (login ())
+      - Username
+      - Password
+- Kunde
+  - Opret (createUser ())
+    - Username
+    - Password
+    - Firma
+    - Adresse
+    - E-mail
+    - Tlf. nummer
+   - Tjek tider
+   - Oprette en booking (bookAppointment ())
+   - Slette en booking (removeAppointment ())
+   - Slette sin bruger (deleteUser ())
+- Admin
+    - Login (login ())
+    - Oprette konsulentbrugere (createConsultant ())
+    - Administrere tider
+      - Oprette et bookinginterval - en blok (Hvis kalender ikke bliver den endelige løsning) (createInterval ())
+      - Slette en booking (removeAppointment ())
+- Konsulent
+    - Se aftaler
+    - Slette en booking (removeAppointment ())
+    - Slette sin bruger (deleteUser ())
+- Valg af ydelse (søge- / sorteringsfunktion)
+    - Tags der viser forskellige kompetencer 
+      - Konsulent
+      - Navn
+      - Erfaring
+      - Tags
+      - Booking
+      - Dato
+      - Ledige tider
+- Kalender
+    - Skal kunne modtage en booking fra appointment (addAppointment ())
+    - Den trækker herfra informationen: 
+      - date : appointment
+      - time : appointment
+      - consultant : appointment 
+      - client : appointment
+      - Appointments bliver herefter vist i kalenderen for den enkelte konsulent. 
+      - Skal have en datofunktion (dateFunction).
